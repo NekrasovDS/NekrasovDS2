@@ -3,27 +3,28 @@
   <head>
 	  <meta charset="utf-8">
 	  <title>Гиперссылки и формы</title>
-<link href="styles/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
   <body>
-<header>
-  <div class="container">
-    <a href="/" class="logo">Сайт Рафаэля Амброзиуса Кусто</a>
-    <nav>
-      <ul>
-        <li><a href="">Главная</a></li>
-        <li><a href="">О нас</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
+    <header>
+            <img alt="Headhead" style="float:left;padding: 10px 20px; width: 120px; height: 120px;" src="https://github.com/NekrasovDS/NekrasovDS2.github.io/blob/main/HarrierDuBois3.1.jpg" />
+            <br />
+            <p id="Baze" style="text-align:left; font-family : LATHA; font-size:50px;"><em>Сайт Рафаэля Амброзиуса Кусто</em></p>
+    </header>
+	  <nav>
+        <h1>
+            <a style="font-size:40px">Меню</a>
+        </h1>
+        <h2>
+            <a href="#page1">Гиперссылки</a>
+            <a href="#page2">Таблица</a>
+            <a href="#page3">Форма</a>
+        </h2>
     </nav>
-  </div>
-</header>
 <div class="main">
   <div class="container"></div>
 </div>
-<footer>
-  <div class="container"></div>
-</footer>
+	  <div id="page1">
 	  <h2 class="titlist">Гиперссылки</h2>
       <ol>
         <li><a class="titlist" href="https://example.com">абсолютная гиперссылка на главную страницу сайта example.com</a></li>
@@ -58,9 +59,43 @@
 			<li><a href="/about">сокращенная на главную</a></li>
 			<li><a href="/news/12">сокращенная на внутреннюю</a></li>
       </ol>
+    </div>
+	  <div id="page2">
+        <h2>Таблица</h2>
+        <table>
+            <tr class="nechet">
+                <th>Колонка1</th>
+                <th>Колонка2</th>
+                <th>Колонка3</th>
+            </tr>
+            <tr class="chet">
+                <td>Ячейка 11</td>
+                <td>Ячейка 12</td>
+                <td>Ячейка 13</td>
+            </tr>
+            <tr class="nechet">
+                <td>Ячейка 21</td>
+                <td>Ячейка 22</td>
+                <td>Ячейка 23</td>
+            </tr>
+            <tr class="chet">
+                <td colspan="2">Ячейка 31 с 32 </td>
+                <td>Ячейка 33</td>
+            </tr>
+            <tr class="nechet">
+                <td colspan="3">Ячейка 41,42,43</td>
+            </tr>
+            <tr class="chet">
+                <td>Ячейка 51</td>
+                <td>Ячейка 52</td>
+                <td>Ячейка 53</td>
+            </tr>
+        </table>
+    </div>
 
+	  <div id="page3">
   <h1>Форма</h1>
-
+	  
   <form action="/" method="POST">
 
     <label>
@@ -134,8 +169,13 @@
       <input type="checkbox" checked="checked" name="check-1"> С контрактом ознакомлен(-а)</label>
     <br> Отправка формы:
     <input type="submit" value="Отправить">
+    </div>
 
   </form>
+	  <footer>
+		  <h3>Автор: Некрасов Даниил</h3>
+		  <div class="container"></div>
+			  </footer>
 
 </body>
 
