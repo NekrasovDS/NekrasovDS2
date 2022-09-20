@@ -1,20 +1,20 @@
 h1{
-    text-align:center;
+    text-align: center;
 }
 
 h2{
-    text-align:center;
+    text-align: center;
 }
 
 h3{
-    text-align:center;
-    background:#FF6347;
+    text-align: center;
+    background: #FF6347;
     
 }
 
 div{
-    text-align:center;
-    background:#FF6347;
+    text-align: center;
+    background: #FF6347;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -27,11 +27,11 @@ table{
 }
 
 tb{
-     text-align:center
+     text-align: center
 }
 
 form{
-    text-align:center;
+    text-align: center;
     font-size: 30px;
     background:	#FF6347;
     width: 400px;
@@ -40,15 +40,15 @@ form{
 }
 
 ol{
-    text-align:center
+    text-align: center
 }
 
 nav{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    background:#B22222;
-    padding:10px 20px 10px 20px;
+    background: #B22222;
+    padding: 10px 20px 10px 20px;
     width: 200px;
 }
 
@@ -79,8 +79,8 @@ footer {
 }
 
 .chet{
-    background-color:Gold;
+    background-color: Gold;
 }
 .nechet{
-    background-color:MediumAquamarine;
+    background-color: MediumAquamarine;
 }
