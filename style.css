@@ -8,13 +8,13 @@ h2{
 
 h3{
     text-align:center;
-    background:#FFF0F5;
+    background:#FF6347;
     
 }
 
 div{
     text-align:center;
-    background:#FFF0F5;
+    background:#FF6347;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +33,7 @@ tb{
 form{
     text-align:center;
     font-size: 30px;
-    background:	#FFF0F5;
+    background:	#FF6347;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -47,7 +47,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    background:#7B68EE;
+    background:#B22222;
     padding:10px 20px 10px 20px;
     width: 200px;
 }
@@ -69,7 +69,7 @@ nav{
 
 header{
     height: 200px;
-background: linear-gradient(45deg, #FF7F50, #A0522D);
+background: linear-gradient(45deg, #8B4513, #FF8C00);
 }
 
 footer {
@@ -79,8 +79,8 @@ footer {
 }
 
 .chet{
-    background-color:blue;
+    background-color:Gold;
 }
 .nechet{
-    background-color:violet;
+    background-color:MediumAquamarine;
 }
