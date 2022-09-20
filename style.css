@@ -5,7 +5,7 @@ header{
 
 div{
     text-align:center;
-    background:#BC8F8F;
+    background:#FFF0F5;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +24,7 @@ tb{
 form{
     text-align:center;
     font-size: 30px;
-    background:	#BC8F8F;
+    background:	#FFF0F5;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +38,7 @@ nav{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    background:#BC8F8F;
+    background:#7B68EE;
     padding:10px 20px 10px 20px;
     width: 400px;
 }
@@ -68,7 +68,7 @@ h2{
 
 h3{
     text-align:center;
-    background:#BC8F8F;
+    background:#FFF0F5;
     
 }
 
