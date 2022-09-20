@@ -1,6 +1,15 @@
-header{
-    height:150px;
-    background:	#9370DB;
+h1{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+h3{
+    text-align:center;
+    background:#FFF0F5;
+    
 }
 
 div{
@@ -58,18 +67,9 @@ nav{
     margin: 30px auto;
 }
 
-h1{
-    text-align:center;
-}
-
-h2{
-    text-align:center;
-}
-
-h3{
-    text-align:center;
-    background:#FFF0F5;
-    
+header{
+    height:150px;
+    background:	#9370DB;
 }
 
 footer {
