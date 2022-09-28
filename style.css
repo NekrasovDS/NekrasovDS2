@@ -51,26 +51,7 @@ nav{
 	border-radius: 10px;
 	background: #DC143C;
     margin: 30px auto;
-	order: 1;
-	flex: 1;
 }
-
-#page2{
-	order: 3;
-	flex:3;
-}
-
-#page3{
-	order: 2;
-	flex:4;
-}
-
-#pages{
-	display:flex;
-	flex:0;
-	flex-direction: column;
-}
-
 header{
     height: 200px;
 	flex: column;
@@ -102,31 +83,4 @@ h3{
     text-align: center;
     background: #FF6347;
     
-}
-
-#testall{
-	display: flex;
-	flex-direction: column;
-}
-
-
-@media only screen and (min-width: 800px) 
-{
-	#pages{
-	display:inline-block;
-		width: 500px;
-}
-	#page1{
-		order: 1;
-		weight:300px;
-}
-
-	#page2{
-		order: 3;
-		weight:300px;
-}
-
-	#page3{
-		order: 2;
-		weight:300px;
 }
