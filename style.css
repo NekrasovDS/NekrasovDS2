@@ -54,7 +54,6 @@ nav{
 }
 header{
     height: 200px;
-	flex: column;
 background: linear-gradient(90deg, #8B4513, #FFD700);
 }
 
